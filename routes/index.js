@@ -2,9 +2,9 @@ var express = require('express');
 var router = express.Router();
 const fetch = require('node-fetch');
 
-/* 
-const NEWS_API_KEY = process.env.NEWS_API_KEY; */
-const NEWS_API_KEY = "8417ef0137d3435da1db839eb0d10f87"; 
+
+const NEWS_API_KEY = process.env.NEWS_API_KEY; 
+/* const NEWS_API_KEY = "8417ef0137d3435da1db839eb0d10f87";  */
 
 /* GET home page. */
 

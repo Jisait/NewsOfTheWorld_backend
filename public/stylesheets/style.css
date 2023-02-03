@@ -1,9 +1,19 @@
 body {
+display: flex;
+flex-direction: column;
+align-items: center;
   padding: 50px;
-  font: 30px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: rgb(37, 37, 37);
+  font: 20px "Gill Sans", Helvetica, Arial, sans-serif;
+  background-color: rgb(8, 8, 8);
 }
 
-a {
-  color: #2bff00;
+h1 {
+  color: #ffbb00;
+  margin: 0px;
+}
+
+
+p {
+  color: #d0ff00;
+  margin: 0px;
 }
